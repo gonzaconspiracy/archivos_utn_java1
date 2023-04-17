@@ -1,4 +1,4 @@
-// package com.proyecto.clases;
+package com.proyecto.clases;
 
 public class Pronostico {
 
@@ -9,7 +9,6 @@ public class Pronostico {
 
 	// Constructor
 	public Pronostico(Partido partido, Equipo equipo, ResultadoEnum resultado) {
-		super();
 		this.partido = partido;
 		this.equipo = equipo;
 		this.resultado = resultado;
